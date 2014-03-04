@@ -15,6 +15,10 @@ Sauce.config do |c|
   puts "\nhello again\n"
 end
 
+require "capybara/rails"
+require "sauce/cucumber"
+Capybara.javascript_driver = :sauce
+
 # Capybara defaults to CSS3 selectors rather than XPath.
 # If you'd prefer to use XPath, just uncomment this line and adjust any
 # selectors in your step definitions to use the XPath syntax.
