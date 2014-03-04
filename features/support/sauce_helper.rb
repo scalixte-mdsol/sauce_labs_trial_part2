@@ -6,7 +6,7 @@ require "sauce/capybara"
 Sauce.config do |config|
   puts "\n I am in \n"
   config[:browsers] = [
-      ["Windows XP", "Internet Explorer", "8"],
+      ["Windows 2003", "Internet Explorer", "8"],
       ["Windows 7", "Internet Explorer", "9"],
       ["Windows 8", "Internet Explorer", "10"],
       ["Windows 7", "Firefox", "20"],
